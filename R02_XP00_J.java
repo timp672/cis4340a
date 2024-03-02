@@ -1,5 +1,11 @@
-public class R00_IDS03_J {
-    public static void main(String [] args){
-        
-    }
+public class R02_XP00_J {
+
+    public void deleteFile(){
+ 
+        File someFile = new File("someFileName.txt");
+        // Do something with someFile
+        someFile.delete();
+       
+      }
+
 }
